@@ -59,24 +59,39 @@ header nav {
     color: red;
     transition-duration: 0.5s;
 }
-
-/* !ad css */
-
-/* !article css */
-.title {
-    display: grid;
-    grid-template-columns: minmax(2, 20rem);
-    width: 60rem;
+/* !spacing */
+ .title,
+ .ad_box{
+    margin-top: 4em;
 }
+/* !ad css */
+.ad_box{
+    display: flex;
+}
+.ad_box h6{
+    rotate: 90deg;
+    font-size: 1em;
+    color: #00000087;
+}
+/* !article css */
+/* .title {
+
+} */
 .title h2,
  .title h1, 
 .title p{
-    grid-column: 2;
+ display:flex;
+ max-width: 40rem;
 }
 
 .title span {
     color: red;
     padding: 0.5em;
+}
+
+.article_container{
+    max-width: 50rem;
+   margin-top: 1em;
 }
 
 .article {
